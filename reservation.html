@@ -42,65 +42,99 @@
         </div>
       </nav>
       <div id="logo" class="col-span-full">
-        <img src="images/logo-CR2.png" alt="Couples Resort Logo" />
+        <img src="images/logo_CR.jpg" alt="Couples Resort Logo" />
       </div>
     </header>
 
     <!-- Main Hero Section -->
-    <!-- Main Hero -->
 
+    <!-- Booking Section -->
     <section id="hero" class="grid-con">
-      <h2 class="hidden">About Us</h2>
+      <h2 class="hidden">Reservations</h2>
       <!-- Hero Image -->
       <div id="hero-image" class="col-span-full">
         <img src="images/background.png" alt="Couples Resort" />
       </div>
-      <!-- Hero Text -->
-      <div id="hero-text" class="col-span-full">
-        <p>
-          Welcome to Couples Resort, Soyers Lake.  Haliburton’s Only 5 STAR
-          Luxury Resort.  Fine Luxury while still being Rustic with
-          Wilderness... "For over 50 years we have been committed to helping
-          couples stay connected. 100% Canadian Owned, By the LeBlanc Family
-          since 1958.
-        </p>
-      </div>
     </section>
+
+    <div class="form-container">
+      <h2>Book Your Romantic Escape</h2>
+      <form action="#" method="post">
+        <label for="date">Check-in Date</label>
+        <input type="date" id="date" name="checkin_date" required />
+
+        <label for="rooms">Rooms and Guests</label>
+        <input
+          type="text"
+          id="rooms"
+          name="rooms_guests"
+          placeholder="e.g., 2 rooms, 4 guests"
+          required
+        />
+
+        <button type="submit">BOOK NOW</button>
+      </form>
+    </div>
+
+    <div class="promo-container">
+      <div class="promo-box">
+        <h2>BIG DECEMBER SALE – UP TO 70% OFF!</h2>
+        <p>
+          Escape to luxury Dec 1–18 with lake views, private hot tubs, free
+          firewood, and all-inclusive gourmet meals.
+        </p>
+        <ul>
+          <li>2-Night Getaways: From $132 pp/night</li>
+          <li>1-Night Escapes: From $222 pp/night</li>
+          <li>Weekend Stays: From $221 pp/night</li>
+        </ul>
+        <p><strong>Book early for a chance at a 3rd night free!</strong></p>
+      </div>
+    </div>
+
+    <!-- Hero Text -->
+    <div class="centered-text">
+      <p>Dream Stays Await – Pick Your Ultimate Retreat.</p>
+    </div>
 
     <!-- Main Content Section -->
 
     <div class="container">
       <!-- Box 1 -->
-      <div class="image-container">
-        <img src="images/AboutUs.png" alt="About Us" class="resort-image" />
-        <!-- Overlay -->
-        <div class="text-overlay">
-          <h2 class="overlay-title">About Us</h2>
+      <div class="content-box">
+        <div class="image-container">
+          <img src="images/CHATEAUS.png" alt="CHATEAUS" class="resort-image" />
+          <div class="text-overlay">
+            <h2 class="overlay-title">Rooms</h2>
+            <h1 class="overlay-title">CHATEAUS</h1>
+          </div>
         </div>
-      </div>
-      <div class="text-content">
-        <p>
-          Ontario's 5-Star Couples Resort: Lakeside luxury, endless adventures,
-          pampering spa treatments, and gourmet dining—all surrounded by
-          pristine wilderness and starlit skies.
-        </p>
-        <div class="btn-container">
-          <a href="#" class="btn">Learn More</a>
+        <div class="text-content">
+          <p>
+            Enjoy 1,400 sq. ft. of luxury with a private outdoor hot tub, sauna,
+            steam shower with four heads, bidet, microwave, and complimentary
+            Illy espresso machine, bath products, and specialty amenities.
+          </p>
+          <div class="btn-container">
+            <a href="#" class="btn">Learn More</a>
+          </div>
         </div>
       </div>
 
       <!-- Box 2 -->
       <div class="image-container">
-        <img src="images/Rooms.png" alt="Rooms" class="resort-image" />
+        <img src="images/VILLAS.png" alt="Villas" class="resort-image" />
         <div class="text-overlay">
           <h2 class="overlay-title">Rooms</h2>
+          <h1 class="overlay-title">VILLAS</h1>
         </div>
       </div>
       <div class="text-content">
         <p>
-          Discover 48 accommodations, from 600 to 1,400 sq. ft., all exceeding 5
-          Diamond standards, featuring private hot tubs, whirlpool baths,
-          wood-burning fireplaces, Netflix, and more.
+          Relax in 1,000 sq. ft. of refined comfort with a private outdoor hot
+          tub, sauna, steam shower with four heads and benches, bidet,
+          microwave, and a complimentary Illy espresso machine with capsules for
+          the perfect start to your day.
         </p>
         <div class="btn-container">
           <a href="#" class="btn">Learn More</a>
@@ -109,18 +143,17 @@
 
       <!-- Box 3 -->
       <div class="image-container">
-        <img src="images/Dining.png" alt="Dining" class="resort-image" />
+        <img src="images/MASTERS.png" alt="Dining" class="resort-image" />
         <div class="text-overlay">
-          <h2 class="overlay-title">Dining</h2>
+          <h2 class="overlay-title">Rooms</h2>
+          <h1 class="overlay-title">MASTERS</h1>
         </div>
       </div>
       <div class="text-content">
         <p>
-          Indulge in 1st-class gourmet dining with a 5-course dinner and
-          breakfast in bed, both included. Enjoy vegan, vegetarian, and special
-          dietary options, including halal and gluten-free, prepared with over
-          50 years of expertise in food allergies. Chef Daniel and his team of 7
-          Chef d'Parties deliver culinary excellence tailored to every palate.
+          Unwind in 1,000 sq. ft. of luxury featuring a private outdoor hot tub,
+          steam shower with four heads and benches, a bidet, and a microwave for
+          your convenience.
         </p>
         <div class="btn-container">
           <a href="#" class="btn">Learn More</a>
@@ -151,6 +184,7 @@
           <!-- Quote Request Form Section -->
           <div class="form-container">
             <form action="#" method="post">
+              <label for="name">Full Name</label>
               <input
                 type="text"
                 id="name"
@@ -159,6 +193,7 @@
                 required
               />
 
+              <label for="email">E-mail:</label>
               <input
                 type="email"
                 id="email"
@@ -167,6 +202,7 @@
                 required
               />
 
+              <label for="question">Question Comment </label>
               <textarea
                 id="question"
                 name="question"

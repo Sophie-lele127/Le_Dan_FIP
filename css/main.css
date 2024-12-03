@@ -98,10 +98,25 @@ textarea {
 /* 3. ---Main Hero Image--- */
 
 /*#hero {
-    background: url(../images/background.png) no-repeat center center; /* Single background image 
-    height: 320px;
-    align-items: center; 
-  }*/
+  background: url(../images/background.png) no-repeat center center; /* Single background image 
+  height: 320px;
+  align-items: center; 
+}*/
+
+/* Hero Section */
+.hero-section {
+  position: relative; /* Ensure positioned elements can align within */
+  text-align: center; /* Center align text */
+  height: 400px; /* Set height for the hero section */
+  overflow: hidden; /* Hide any overflowing content */
+  background-image: url("images/background-img.png"); /* Set the background image */
+  background-size: cover; /* Ensure the image covers the entire section */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent image from repeating */
+  width: 100vw; /* Full width of the viewport */
+  margin: 0; /* Remove any default margins */
+}
+
 .hero-image-container {
   position: relative;
   width: 100%;
